@@ -1,0 +1,43 @@
+/* 
+    UNIDADE DE MEDIDAS:
+
+    ===> ABSOLUTAS:
+            1 polegada e = a 2,54cm / 100 
+            px ---> (pixels) 1/100 polegadas 
+            in ---> (inches / polegadas)
+            cm / mm (centímetro / milímetro)
+ */
+
+ /* EX DE UNIDADE DE MEDIDA */
+ h1 {
+    font-size: 16px;
+ }
+
+/* 
+    ===> RELATIVAS:
+            %  ---> Calcule o tamanho relativo ao elemento pai
+            vw ---> (View width) 1 vw e 1% da largura da janela do naveragor
+            vh ---> (View height) 1vh e 1% da altura da janela do navegado
+
+            ROOT emphemeral unit ---> unidade transitória
+            em ---> E uma inidade relativa ao elemento PAI
+            rem --> E uma unidade relativa ao elemento RAIZ primeiro elemento
+ */
+
+ .vo {
+  line-height: 16px;
+ }
+
+ .pai {
+    width: 100px;
+    height: 100px;
+    background: blue;
+
+ }
+
+ /* relativo ao PAI */
+ .filho{
+    width: 50%;
+    height: 50%;
+    background:red;
+ }
